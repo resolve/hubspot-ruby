@@ -13,8 +13,8 @@ module Hubspot
       # Lists the topics
       # {https://developers.hubspot.com/docs/methods/blogv2/get_topics)
       # @return [Hubspot::Topic, []] array of topics or empty_array
-      def list
-        url = Hubspot::Utils.generate_url(TOPIC_LIST_PATH)
+      def list(params = {})
+        url = Hubspot::Utils.generate_url(TOPIC_LIST_PATH, params)
         resp = HTTParty.get(url, format: :json)
         if resp.success?
           resp.parsed_response['objects'].map do |topic_hash|
