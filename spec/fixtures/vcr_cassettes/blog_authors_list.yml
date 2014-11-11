@@ -1,0 +1,172 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.hubapi.com/content/api/v2/blog-authors?hapikey=demo
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Cache-Control:
+      - No-store
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 11 Nov 2014 02:15:46 GMT
+      P3p:
+      - 'P3P: policyref="http://www.hubspot.com/w3c/p3p.xml", CP="CURa ADMa DEVa TAIa
+        PSAa PSDa OUR IND DSP NON COR'
+      Server:
+      - gunicorn/0.17.2
+      Vary:
+      - Accept-Encoding
+      X-Hs-Mc-Reqs:
+      - Z2V0X21hbnk6MiwzO3NldDoxLDM7Z2V0OjMsMTU=
+      Content-Length:
+      - '4468'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"total_count": 10, "objects": [{"avatar": "", "bio": "", "body": {},
+        "created": 1377856983000, "deleted_at": 0, "email": "testapi@hubspot.com",
+        "facebook": "", "full_name": "Hub Spot", "google_plus": "", "gravatar_url":
+        "https://app.hubspot.com/settings/avatar/bb23f3ae97b9698d130c02d2841e86a4",
+        "id": 284839243, "linkedin": "", "portal_id": 62515, "slug": "hub-spot", "twitter":
+        "", "updated": 1377856983000, "user_id": 215482, "username": "testapi@hubspot.com",
+        "website": ""}, {"avatar": "", "bio": "", "body": {}, "created": 1387405616000,
+        "deleted_at": 0, "email": "test11+14@mangotreemedia.com", "facebook": "",
+        "full_name": "Levi Test4", "google_plus": "", "gravatar_url": "https://app.hubspot.com/settings/avatar/85e87be7a1731ae52857b2b9733837aa",
+        "id": 415341859, "linkedin": "", "portal_id": 62515, "slug": "levi-test4",
+        "twitter": "", "updated": 1387405616000, "user_id": null, "username": null,
+        "website": ""}, {"avatar": "", "bio": "", "body": {}, "created": 1387404247000,
+        "deleted_at": 0, "email": "levi@savvypanda.com", "facebook": "", "full_name":
+        "levi", "google_plus": "", "gravatar_url": "https://app.hubspot.com/settings/avatar/314f688aa3293734d51d2fe5823e8959",
+        "id": 416695688, "linkedin": "", "portal_id": 62515, "slug": "levi", "twitter":
+        "", "updated": 1387404247000, "user_id": null, "username": null, "website":
+        ""}, {"avatar": "", "bio": "", "body": {}, "created": 1387405319000, "deleted_at":
+        0, "email": "test11+13@mangotreemedia.com", "facebook": "", "full_name": "Levi
+        Test3", "google_plus": "", "gravatar_url": "https://app.hubspot.com/settings/avatar/7e9319754d38fceb0216178e621809c8",
+        "id": 416732563, "linkedin": "", "portal_id": 62515, "slug": "levi-test3",
+        "twitter": "", "updated": 1387405319000, "user_id": null, "username": null,
+        "website": ""}, {"avatar": "", "bio": "", "body": {}, "created": 1387404442000,
+        "deleted_at": 0, "email": "test11+11@mangotreemedia.com", "facebook": "",
+        "full_name": "Levi Test", "google_plus": "", "gravatar_url": "https://app.hubspot.com/settings/avatar/caf1c7f4155541edb39b6f5d9566afe9",
+        "id": 418560336, "linkedin": "", "portal_id": 62515, "slug": "levi-test",
+        "twitter": "", "updated": 1387404442000, "user_id": null, "username": null,
+        "website": ""}, {"avatar": "", "bio": "", "body": {}, "created": 1387402382000,
+        "deleted_at": 0, "email": "luke@savvypanda.com", "facebook": "", "full_name":
+        "Luke Summerfield", "google_plus": "", "gravatar_url": "https://app.hubspot.com/settings/avatar/059b5276e3fd2ed82920233dfb249827",
+        "id": 419263482, "linkedin": "", "portal_id": 62515, "slug": "luke-summerfield",
+        "twitter": "", "updated": 1387402382000, "user_id": null, "username": null,
+        "website": ""}, {"avatar": "", "bio": "", "body": {}, "created": 1387405150000,
+        "deleted_at": 0, "email": "test11+12@mangotreemedia.com", "facebook": "",
+        "full_name": "Levi Test2", "google_plus": "", "gravatar_url": "https://app.hubspot.com/settings/avatar/1b5061728037193d708d8e79dea3c568",
+        "id": 420961175, "linkedin": "", "portal_id": 62515, "slug": "levi-test2",
+        "twitter": "", "updated": 1387405150000, "user_id": null, "username": null,
+        "website": ""}, {"avatar": "", "bio": "", "body": {}, "created": 1389384532000,
+        "deleted_at": 0, "email": "test@example.com", "facebook": "", "full_name":
+        "Test Author", "google_plus": "", "gravatar_url": "https://app.hubspot.com/settings/avatar/55502f40dc8b7c769880b10874abc9d0",
+        "id": 444940014, "linkedin": "", "portal_id": 62515, "slug": "test-author",
+        "twitter": "", "updated": 1389384532000, "user_id": null, "username": null,
+        "website": ""}, {"avatar": "", "bio": "", "body": {}, "created": 1389384804000,
+        "deleted_at": 0, "email": "test@example.com", "facebook": "", "full_name":
+        "A Test Author", "google_plus": "", "gravatar_url": "https://app.hubspot.com/settings/avatar/55502f40dc8b7c769880b10874abc9d0",
+        "id": 447223353, "linkedin": "", "portal_id": 62515, "slug": "a-test-author",
+        "twitter": "", "updated": 1389384804000, "user_id": null, "username": null,
+        "website": ""}, {"avatar": "", "bio": "", "body": {}, "created": 1389386764000,
+        "deleted_at": 0, "email": "test@example.com", "facebook": "", "full_name":
+        "Another Test Author 4", "google_plus": "", "gravatar_url": "https://app.hubspot.com/settings/avatar/55502f40dc8b7c769880b10874abc9d0",
+        "id": 448759701, "linkedin": "", "portal_id": 62515, "slug": "another-test-author-4",
+        "twitter": "", "updated": 1389386764000, "user_id": null, "username": null,
+        "website": ""}], "limit": 20, "offset": 0}'
+    http_version: 
+  recorded_at: Tue, 11 Nov 2014 02:15:45 GMT
+- request:
+    method: get
+    uri: https://api.hubapi.com/content/api/v2/blog-authors?hapikey=demo&limit=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Cache-Control:
+      - No-store
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 11 Nov 2014 02:15:47 GMT
+      P3p:
+      - 'P3P: policyref="http://www.hubspot.com/w3c/p3p.xml", CP="CURa ADMa DEVa TAIa
+        PSAa PSDa OUR IND DSP NON COR'
+      Server:
+      - gunicorn/0.17.2
+      Vary:
+      - Accept-Encoding
+      X-Hs-Mc-Reqs:
+      - Z2V0X21hbnk6MiwxO3NldDoxLDE7Z2V0OjMsOA==
+      Content-Length:
+      - '506'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"total_count": 10, "objects": [{"avatar": "", "bio": "", "body": {},
+        "created": 1377856983000, "deleted_at": 0, "email": "testapi@hubspot.com",
+        "facebook": "", "full_name": "Hub Spot", "google_plus": "", "gravatar_url":
+        "https://app.hubspot.com/settings/avatar/bb23f3ae97b9698d130c02d2841e86a4",
+        "id": 284839243, "linkedin": "", "portal_id": 62515, "slug": "hub-spot", "twitter":
+        "", "updated": 1377856983000, "user_id": 215482, "username": "testapi@hubspot.com",
+        "website": ""}], "limit": 1, "offset": 0}'
+    http_version: 
+  recorded_at: Tue, 11 Nov 2014 02:15:46 GMT
+- request:
+    method: get
+    uri: https://api.hubapi.com/content/api/v2/blog-authors?hapikey=demo&limit=1&offset=100
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Cache-Control:
+      - No-store
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 11 Nov 2014 02:15:48 GMT
+      P3p:
+      - 'P3P: policyref="http://www.hubspot.com/w3c/p3p.xml", CP="CURa ADMa DEVa TAIa
+        PSAa PSDa OUR IND DSP NON COR'
+      Server:
+      - gunicorn/0.17.2
+      X-Hs-Mc-Reqs:
+      - Z2V0X21hbnk6MiwzO3NldDoxLDE7Z2V0OjMsNQ==
+      Content-Length:
+      - '61'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"total_count": 10, "objects": [], "limit": 1, "offset": 100}'
+    http_version: 
+  recorded_at: Tue, 11 Nov 2014 02:15:47 GMT
+recorded_with: VCR 2.4.0

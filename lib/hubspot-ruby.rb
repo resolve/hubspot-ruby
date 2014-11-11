@@ -5,6 +5,7 @@ require 'hubspot/config'
 require 'hubspot/contact'
 require 'hubspot/form'
 require 'hubspot/blog'
+require 'hubspot/blog_author'
 require 'hubspot/topic'
 
 module Hubspot
