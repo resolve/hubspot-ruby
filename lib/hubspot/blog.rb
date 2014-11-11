@@ -117,6 +117,10 @@ module Hubspot
       Time.at(@properties['created'] / 1000)
     end
 
+    def published_at
+      Time.at(@properties['publish_date'] / 1000)
+    end
+
     def topics
       @topics ||= begin
         if @properties['topic_ids'].empty?
